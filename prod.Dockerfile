@@ -9,8 +9,9 @@ RUN apt-get update \
 
 WORKDIR /app
 
-COPY package.json yarn.lock .
-COPY src/logic/contracts/artifacts ./src/logic/contracts/artifacts
+COPY package.json yarn.lock ./
+# COPY src/logic/contracts/artifacts ./src/logic/contracts/artifacts
+COPY patches ./patches
 
 RUN yarn install
 
