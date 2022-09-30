@@ -102,7 +102,6 @@ const Layout = ({ classes, providerDetails, providerInfo }) => {
         <Track {...OVERVIEW_EVENTS.HOME}>
           <Link to={ROOT_ROUTE}>
             <Img alt="Ethereum Classic multisig" height={36} src={ETCLogo} testId="heading-etc-logo" id="etc-logo" />
-            Ethereum Classic Safe
           </Link>
         </Track>
       </Col>
