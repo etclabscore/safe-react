@@ -13,24 +13,9 @@ describe('<Footer>', () => {
   it('Should show footer links', () => {
     render(<Footer />)
 
-    const gnosisCopyrightNode = screen.getByText(/©\d{4} Gnosis/)
+    const gnosisCopyrightNode = screen.getByText(/©\d{4} Ethereum Classic/)
 
     expect(gnosisCopyrightNode).toBeInTheDocument()
-
-    const termsLinkNode = screen.getByText('Terms')
-    expect(termsLinkNode).toBeInTheDocument()
-
-    const privacyLinkNode = screen.getByText('Privacy')
-    expect(privacyLinkNode).toBeInTheDocument()
-
-    const LicensesLinkNode = screen.getByText('Licenses')
-    expect(LicensesLinkNode).toBeInTheDocument()
-
-    const imprintLinkNode = screen.getByText('Imprint')
-    expect(imprintLinkNode).toBeInTheDocument()
-
-    const cookiePolicyLinkNode = screen.getByText('Cookie Policy')
-    expect(cookiePolicyLinkNode).toBeInTheDocument()
 
     const preferencesLinkNode = screen.getByText('Preferences')
     expect(preferencesLinkNode).toBeInTheDocument()

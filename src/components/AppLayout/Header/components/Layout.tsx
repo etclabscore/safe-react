@@ -101,7 +101,8 @@ const Layout = ({ classes, providerDetails, providerInfo }) => {
       <Col className={classes.logo} middle="xs" start="xs">
         <Track {...OVERVIEW_EVENTS.HOME}>
           <Link to={ROOT_ROUTE}>
-            <Img alt="ETC Safe" height={36} src={ETCLogo} testId="heading-etc-logo" id="etc-logo" />
+            <Img alt="Ethereum Classic multisig" height={36} src={ETCLogo} testId="heading-etc-logo" id="etc-logo" />
+            Ethereum Classic Safe
           </Link>
         </Track>
       </Col>
