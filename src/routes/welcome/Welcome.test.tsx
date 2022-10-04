@@ -1,4 +1,4 @@
-import { render, fireEvent, screen } from 'src/utils/test-utils'
+import { fireEvent, render, screen } from 'src/utils/test-utils'
 import { LOAD_SAFE_ROUTE, OPEN_SAFE_ROUTE, ROOT_ROUTE } from '../routes'
 import Welcome from './Welcome'
 
@@ -6,7 +6,7 @@ describe('<Welcome>', () => {
   it('Should render Welcome container', () => {
     render(<Welcome />)
 
-    expect(screen.getByText('Welcome to Gnosis Safe.')).toBeInTheDocument()
+    expect(screen.getByText('Welcome to Ethereum Classic Safe.')).toBeInTheDocument()
   })
 
   it('Create new Safe button should redirect to /open if a wallet is already selected', () => {

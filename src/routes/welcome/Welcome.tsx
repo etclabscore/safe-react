@@ -15,10 +15,11 @@ function Welcome(): ReactElement {
     <Page align="center">
       <Block>
         <Title size="md" strong>
-          Welcome to Gnosis Safe.
+          Welcome to Ethereum Classic Safe.
         </Title>
         <Title size="xs">
-          Gnosis Safe is the most trusted platform to manage digital assets. <br /> Here is how to get started:
+          Ethereum Classic Safe is the most trusted platform to manage digital assets. <br /> Here is how to get
+          started:
         </Title>
         <CardsContainer>
           <StyledCard>
